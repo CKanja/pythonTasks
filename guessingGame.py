@@ -1,7 +1,8 @@
 import random
 counter = 0
 number = random.randint(0,100)
-guess = int(input("Please enter a number"))
+
+guess = int(input("Please enter a number: "))
 counter+=1
 while guess!= number:
     if guess > number:
